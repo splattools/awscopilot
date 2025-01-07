@@ -1,8 +1,6 @@
 services:
   backend:
-    build:
-      context: backend
-      target: builder
+    build: backend
     restart: always
     ports:
       - 8000:8000
